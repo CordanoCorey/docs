@@ -1,0 +1,16 @@
+<div class="title">
+  <h2>{{group.title}}</h2>
+</div>
+<div class="content">
+  <div class="arrow">
+    <mat-icon>navigate_before</mat-icon>
+  </div>
+  <docs-card *ngFor="let image of group.images" [image]="image" (click)="selectImage(image)"></docs-card>
+  <!--<div class="upload-area" (click)="modal.show($event, group)">
+    <span>+</span>
+  </div>-->
+  <div class="arrow">
+    <mat-icon>navigate_next</mat-icon>
+  </div>
+</div>
+<!--<docs-panel *ngIf="selectedImage" (close)="selectImage(null)" [image]="selectedImage"></docs-panel>-->

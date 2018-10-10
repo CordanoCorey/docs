@@ -1,0 +1,7 @@
+<div class="image" [ngStyle]="{'background-image': 'url(' + image.src + ')'}" *ngIf="image.src"></div>
+
+<div class="image" *ngIf="!image.src"></div>
+
+<div *ngIf="false" fxLayout fxLayoutAlign="center center" class="image">
+  <img [src]="image.src">
+</div>

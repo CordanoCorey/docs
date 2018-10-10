@@ -1,0 +1,27 @@
+mat-grid-list {
+  height: 400px;
+  margin: 100px 10%;
+  width: 80%;
+}
+
+a {
+  height: 100%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0px 24px;
+  color: white;
+  line-height: 64px;
+  color: #ddd;
+  background-color: #B71C1C;
+}
+
+a:hover {
+  color: #000;
+  background-color: #ddd;
+}
+
+a .section {
+  margin: 0 auto;
+}
